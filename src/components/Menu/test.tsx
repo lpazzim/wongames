@@ -11,4 +11,9 @@ describe('', () => {
     expect(screen.getByLabelText(/search/i)).toBeInTheDocument()
     expect(screen.getByLabelText(/open shopping cart/i)).toBeInTheDocument()
   })
+
+  it('should render open/close mobile menu', () => {
+    renderWithTheme(<Menu />)
+    const fullMenuElement = screen.getByRole('navigation', { hidden: true })
+  })
 })
