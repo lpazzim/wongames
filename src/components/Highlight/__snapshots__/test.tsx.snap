@@ -5,7 +5,7 @@ exports[` should render the heading 1`] = `
   class=""
 >
   <h1>
-    Ribbon
+    Highlight
   </h1>
 </main>
 `;
