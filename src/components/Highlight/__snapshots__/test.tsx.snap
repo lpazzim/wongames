@@ -1,11 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[` should render the heading 1`] = `
+exports[` should render headings and button 1`] = `
 <main
   class=""
 >
-  <h1>
-    Highlight
-  </h1>
+  <h2
+    class=""
+  >
+    Heading 1
+  </h2>
+  <h3
+    class=""
+  >
+    Heading 2
+  </h3>
 </main>
 `;
