@@ -5,8 +5,9 @@ export default {
   title: 'Highlight',
   component: Highlight,
   args: {
-    title: `Read Dead it's back`,
+    title: `Red Dead it's back`,
     subtitle: `Come see John's new adventures`,
+    backgroundImage: '/img/red-dead-img.jpg',
     buttonLabel: 'Buy Now',
     buttonLink: '/rdr2'
   }
