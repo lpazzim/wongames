@@ -66,4 +66,15 @@ describe('', () => {
     expect(container.querySelector('.slick-prev')).toBeInTheDocument()
     expect(container.querySelector('.slick-next')).toBeInTheDocument()
   })
+
+  it('should render white arrows if color passed', () => {
+    renderWithTheme(<GameCardSlider items={items} color="white" />)
+
+    expect(screen.getByLabelText(/previous games/i)).toHaveStyle({
+      color: '#FAFAFA'
+    })
+    expect(screen.getByLabelText(/next games/i)).toHaveStyle({
+      color: '#FAFAFA'
+    })
+  })
 })
