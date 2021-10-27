@@ -5,7 +5,7 @@ import Menu from 'components/Menu'
 
 import * as S from './styles'
 
-const Home = () => (
+const Home = ({ heading }: any) => (
   <section>
     <Container>
       <Menu />
@@ -19,7 +19,7 @@ const Home = () => (
 
     <Container>
       <Heading lineLeft lineColor="secondary">
-        Most popular
+        {heading}
       </Heading>
     </Container>
 
